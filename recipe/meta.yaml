@@ -1,5 +1,5 @@
 {% set name = "pyannote.database" %}
-{% set version = "4.1" %}
+{% set version = "4.1.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyannote.database-{{ version }}.tar.gz
-  sha256: eaa841f7a02f49af3edb87bea036a032a2e862744c4c910ee053806f66c0d8a4
+  sha256: cc8691845e4cf4495a37373cb2b7d8c6de06d743dcd6cd6ee1915cc4aa7df6bb
 
 build:
   number: 0
