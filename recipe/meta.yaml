@@ -11,7 +11,7 @@ source:
   sha256: cc8691845e4cf4495a37373cb2b7d8c6de06d743dcd6cd6ee1915cc4aa7df6bb
 
 build:
-  number: 0
+  number: 1
   entry_points:
     - pyannote-database=pyannote.database.cli:main
   script: {{ PYTHON }} -m pip install . -vv
