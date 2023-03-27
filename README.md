@@ -1,11 +1,11 @@
-About pyannote.database
-=======================
+About pyannote.database-feedstock
+=================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyannote.database-feedstock/blob/main/LICENSE.txt)
 
 Home: http://pyannote.github.io/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyannote.database-feedstock/blob/main/LICENSE.txt)
 
 Summary: Interface to multimedia databases and experimental protocols
 
