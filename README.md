@@ -1,7 +1,7 @@
 About pyannote.database-feedstock
 =================================
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyannote-database_conda-feedstock/blob/main/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyannote.database-feedstock/blob/main/LICENSE.txt)
 
 Home: http://pyannote.github.io/
 
@@ -15,8 +15,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyannote-database_conda-feedstock?branchName=main">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13654&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyannote.database-feedstock?branchName=main">
       </a>
     </td>
   </tr>
