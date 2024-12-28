@@ -7,12 +7,12 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyannote.database-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pyannote.database-{{ version }}.tar.gz
   sha256: 980bdc910615380a17d8bd82805f9770006d050b2c7a946a520ade4627192681
 
 build:
   noarch: python
-  number: 0
+  number: 1
   entry_points:
     - pyannote-database=pyannote.database.cli:main
   script: {{ PYTHON }} -m pip install . -vv
@@ -20,11 +20,11 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python {{ python_min }}
   run:
     - pandas >=0.19
     - pyannote.core >=4.1
-    - python >=3.8
+    - python >={{ python_min }}
     - pyyaml >=3.12
     - typer >=0.2.1
 
@@ -37,6 +37,7 @@ test:
     - pyannote-database --help
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: http://pyannote.github.io/
